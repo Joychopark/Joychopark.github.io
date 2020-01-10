@@ -1,5 +1,6 @@
-Body{background-color:orange;
+Body{background-color:#080808;
      font-family:sans-serif;}
-h1{color:purple;}
-h2,h3{color:darkgreen;}
-p{color:#080808;}
+h1,a{color:#c0c0c0;}
+h2,h3{color:#ffff00;}
+p,li{color:#fffafa;}
+
