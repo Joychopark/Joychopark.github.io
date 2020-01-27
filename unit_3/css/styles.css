@@ -1,5 +1,4 @@
-body{
-	font-family: Quicksand, Fira Sans, san-serif;
+body{font-family:Quicksand, Arial, "Fira Sans", san-serif;
 	text-align:center;
 	color:#fff;
 	background:url("https://images.unsplash.com/photo-1545056769-9edae80e96d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") no-repeat center center;
@@ -8,15 +7,36 @@ body{
 /*.responsive{ width:100%;*/
              /*height:auto;*/
               /*}*/
-h1{font-family:Quicksand, Fira Sans, san-serif;}
+h1{font-family: "Playfair Display", serif;
+   font-size: 65px;
+   margin-bottom: 0px;}
 
 #slogan{ font-size: 20px;
-         font-weight: 600; }
+         font-weight: 400;
+         color:#ffe8a8;
+         margin-top: 10px; }
 a{color:#ffe8a8;
 text-decoration:none;}
-.btn-group button{ background-color:#ffe8a8;
+#register button {background-color:#ffe8a8;
                    color:black;
-                   padding: 10px 24px;
+                   font-size: 20px;
+                   padding: 8px 20px;
+                   margin: 50px;
                    float: center;
-                   margin-top-top:500px;
-                   border-radius:2px; }
+                   position: relative;
+				   border-radius:2px;
+				   cursor:pointer;}
+.btn-group button{ background-color:transparent;
+                   color:#de4028;
+                   font-size:1em;
+                   border:0;
+                   padding: 8px 20px;
+                   margin: 10px 100px;
+                   float: center;
+                   position: relative;
+                   cursor:pointer;
+				    }
+.btn-group button:hover{ color:#ffe8a8; }
+hr{width:80px;
+   margin-bottom:0px;}
+p { font-size: 0.8em; }
