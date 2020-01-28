@@ -1,4 +1,7 @@
-body{font-family:Quicksand, Arial, "Fira Sans", san-serif;
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display&display=swap');
+
+body{font-family:'Open Sans', sans-serif;
 	text-align:center;
 	color:#fff;
 	background:url("https://images.unsplash.com/photo-1545056769-9edae80e96d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") no-repeat center center;
@@ -7,7 +10,7 @@ body{font-family:Quicksand, Arial, "Fira Sans", san-serif;
 /*.responsive{ width:100%;*/
              /*height:auto;*/
               /*}*/
-h1{font-family: "Playfair Display", serif;
+h1{font-family: "Playfair Display", 'Cinzel Decorative', cursive;
    font-size: 65px;
    margin-bottom: 0px;}
 
@@ -28,10 +31,11 @@ text-decoration:none;}
 				   cursor:pointer;}
 .btn-group button{ background-color:transparent;
                    color:#de4028;
-                   font-size:1em;
+                   font-size:1.2em;
+                   font-weight: 700px;
                    border:0;
                    padding: 8px 20px;
-                   margin: 10px 100px;
+                   margin: 0px 80px;
                    float: center;
                    position: relative;
                    cursor:pointer;
